@@ -1,0 +1,81 @@
+/* AccuracyChart.css */.accuracy-chart {
+  background-color: #343a40;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+.chart-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #e9ecef;
+}
+
+.chart-header .icon {
+  margin-right: 5px;
+  font-size: 1.2rem;
+}
+
+.chart-content {
+  position: relative;
+}
+
+.time-labels {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  padding: 0 10px;
+}
+
+.time-labels span {
+  font-size: 0.7rem;
+  color: #777;
+  padding: 3px 8px;
+  border-radius: 5px;
+  background-color: #495057;
+  font-weight: 600;
+}
+
+.time-labels .active-time {
+  background-color: #6f42c1;
+  color: #fff;
+}
+
+.recharts-cartesian-axis-tick-value {
+  font-size: 0.8rem;
+  fill: #777;
+}
+
+.recharts-cartesian-grid-horizontal line {
+  stroke: #e9ecef;
+  stroke-width: 0.5;
+}
+
+.recharts-cartesian-axis-line {
+  stroke: none;
+}
+
+.recharts-cartesian-axis-tick-line {
+  stroke: none;
+}
+
+.custom-tooltip {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.custom-tooltip p {
+  font-size: 0.9rem;
+  color: #333;
+  margin: 0;
+}
+
+.recharts-bar-rectangle {
+  cursor: pointer;
+}

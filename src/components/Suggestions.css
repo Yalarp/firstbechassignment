@@ -1,0 +1,61 @@
+.suggestions {
+  text-align: center;
+  margin-top: 20px;
+  font-family: "Arial", sans-serif; /* Adjust font if needed */
+}
+
+.suggestion-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #e9ecef;
+}
+
+.suggestion-header .icon {
+  margin-right: 5px;
+  font-size: 1.2rem;
+}
+
+.suggestion-times {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 5px; /* Reduce spacing */
+}
+
+.time {
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.7rem; /* Adjust font size */
+  background-color: #495057; /* Darker background */
+  color: #fff; /* White text */
+  font-weight: 600;
+}
+
+.suggestion-levels {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.level {
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.9rem; /* Adjust font size */
+  color: #e9ecef; /* Light gray text */
+  font-weight: 600; /* Bold font weight */
+}
+
+.level.easy {
+  color: #0d6efd; /* Blue text color */
+}
+
+.level.medium {
+  color: #ffc107; /* Yellow text color */
+}
+
+.level.hard {
+  color: #dc3545; /* Red text color */
+}

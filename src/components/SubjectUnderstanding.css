@@ -1,0 +1,28 @@
+.subject-understanding {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.section-title {
+  font-size: 1rem;
+  color: #000000;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #dbdfe2;
+  padding-bottom: 10px;
+  text-align: left;
+}
+
+.subjects-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.subject {
+  padding: 8px 12px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  color: #fff;
+  background-color: #6f42c1; /* Default color */
+}

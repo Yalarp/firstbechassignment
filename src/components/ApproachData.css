@@ -1,0 +1,28 @@
+.approach-data {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px; /* Add margin to separate from other content */
+}
+
+.data-item {
+  display: flex;
+  align-items: center;
+  background-color: #495057; /* Background color for the boxes */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.data-value {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #e9ecef;
+  margin-right: 10px;
+  width: 30px; /* Fixed width for alignment */
+}
+
+.data-type {
+  font-size: 0.9rem;
+  color: #e9ecef;
+  font-weight: 600;
+}

@@ -1,0 +1,145 @@
+.result-summary {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  grid-column: span 2;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #6f42c1; /* Solid border */
+}
+
+.result-content {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.image-container {
+  margin-right: 20px;
+}
+
+.result-image {
+  max-width: 80px;
+}
+
+.text-content {
+  text-align: left;
+}
+
+.result-summary h2 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-size: 1.3rem;
+  color: #212529;
+  font-weight: 700;
+}
+
+.insights-text {
+  color: #777;
+  font-size: 0.8rem;
+  margin-bottom: 0;
+}
+
+.scorecards-container {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.actions {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.improve-text {
+  font-size: 0.9rem;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.practice-button {
+  background-color: #6f42c1;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.practice-button:hover {
+  background-color: #563d7c;
+}
+
+.revisit {
+  text-align: center;
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.revisit-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+  color: #212529;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.revisit-icon {
+  margin-left: 5px;
+  color: #777;
+  font-size: 0.8rem;
+}
+
+.revisit-text {
+  font-size: 0.8rem;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.visit-button {
+  background-color: #6f42c1;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.visit-button:hover {
+  background-color: #563d7c;
+}
+
+.visit-icon {
+  margin-right: 5px;
+  font-size: 0.8rem;
+}
+
+.instructions {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.instructions-text {
+  font-size: 0.7rem;
+  color: #777;
+}
+
+.instructions-text .icon {
+  color: #6f42c1;
+  font-size: 0.8rem;
+  margin-right: 5px;
+}

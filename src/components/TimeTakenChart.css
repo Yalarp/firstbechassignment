@@ -1,0 +1,84 @@
+.time-taken-chart {
+  background-color: #f8f9fa;
+  border: 1px solid #d9d9d9;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  position: relative;
+}
+
+.chart-title {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #212529;
+}
+
+.chart-icon {
+  font-size: 1.2rem;
+  margin-right: 5px;
+}
+
+.chart-content {
+  /* Add styles for the chart content container */
+}
+
+.scale {
+  margin-bottom: 20px;
+}
+
+.scale-labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.7rem;
+  color: #777;
+  margin-bottom: 5px;
+}
+
+.scale-labels.second-scale {
+  justify-content: space-around;
+}
+
+.scale-line {
+  height: 10px;
+  background-color: #e9ecef;
+  border-radius: 5px;
+  position: relative;
+}
+
+.red-line {
+  position: absolute;
+  height: 100%;
+  background-color: #dc3545;
+  border-radius: 5px;
+  z-index: 1;
+}
+
+.green-line {
+  position: absolute;
+  height: 100%;
+  background-color: #28a745;
+  border-radius: 5px;
+  z-index: 1;
+}
+
+.pointer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 4px;
+  height: 25px;
+  background-color: #777;
+  z-index: 2;
+}
+
+.text-content {
+  font-size: 0.7rem;
+  color: #777;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,104 @@
+.navbar {
+  background-color: #222;
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+}
+
+.logo a {
+  font-weight: 700;
+  font-size: 22px;
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.logo-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: #6f42c1; /* Purple background for icon */
+  color: #fff;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-left: 25px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #bdbdbd;
+  font-size: 0.75rem;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: all 0.2s ease;
+  font-weight: 600;
+  display: flex; /* Use flex for icon and text */
+  align-items: center;
+}
+
+.nav-links li a:hover {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.nav-links li a.active {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.1); /* Highlight active link */
+}
+
+.nav-icon {
+  margin-right: 5px;
+  font-size: 1.1rem;
+}
+
+.profile {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.profile a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #bdbdbd;
+  font-size: 0.75rem;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: background-color 0.2s ease;
+}
+
+.profile a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+.profile-icon {
+  font-size: 1.2rem;
+  margin-right: 10px; /* Add margin between icons */
+}
+
+.profile-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 10px;
+}

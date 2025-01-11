@@ -1,0 +1,101 @@
+.scorecard {
+  border: none;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  flex: 1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.scorecard-title {
+  font-size: 0.8rem;
+  color: #495057;
+  margin-bottom: 10px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-icon {
+  color: #6f42c1;
+  margin-right: 5px;
+  font-size: 0.9rem;
+}
+
+.check-icon {
+  color: #28a745;
+  margin-right: 5px;
+  font-size: 0.9rem;
+}
+
+.score-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 0.8rem;
+  margin-bottom: 5px;
+  color: #212529;
+}
+
+.score {
+  font-size: 1.5rem;
+  color: #212529;
+  font-weight: 700;
+}
+
+.out-of {
+  font-size: 0.8rem;
+  color: #6c757d;
+}
+
+.accuracy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.accuracy-label {
+  font-size: 0.7rem;
+  color: #6c757d;
+  margin-top: 5px;
+}
+
+.accuracy-value {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #212529;
+}
+
+.top-score {
+  background-color: #6f42c1;
+}
+
+.top-score .scorecard-title {
+  color: #fff; /* White text color */
+}
+
+.top-score .user-icon {
+  color: #fff; /* White icon color */
+}
+
+.top-score .name {
+  color: #fff;
+}
+
+.top-score .score {
+  color: #fff;
+}
+
+.top-score .accuracy-label {
+  color: #fff;
+}
+
+.top-score .accuracy-value {
+  color: #fff;
+}
